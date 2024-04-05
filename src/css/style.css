@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#mainSection {
+  width: 100%;
+  height: 800px;
+  background-image: url("../images/header-bg.jpg");
+  background-size: cover;
+  position: relative;
+}
+#mainSection header {
+  position: fixed;
+  width: 100%;
+  height: 94px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+}
+#mainSection header .headContent {
+  width: 1120px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mainSection header .headContent a img {
+  height: 32px;
+  margin-top: 10px;
+}
+#mainSection header .headContent ul {
+  display: flex;
+  color: #fff;
+  list-style: none;
+  gap: 30px;
+  padding-right: 10px;
+}
+#mainSection header .headContent ul .navLink {
+  cursor: pointer;
+  letter-spacing: 0.0625em;
+}
+#mainSection header .headContent ul .navLink a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 0.95rem;
+  color: #fff;
+  text-decoration: none;
+}
+#mainSection .container {
+  width: 1140px;
+  height: 273px;
+  position: absolute;
+}/*# sourceMappingURL=style.css.map */
